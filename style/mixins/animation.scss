@@ -1,0 +1,12 @@
+
+/**
+ * mixins/animation.scss
+ * 
+ * Animation
+ */
+
+@mixin animation($arguments...) {
+
+	@include prefix(animation, $arguments);
+
+}

@@ -1,0 +1,26 @@
+
+/**
+ * mixins/outline.scss
+ * 
+ * Outline
+ */
+
+@mixin outline($color: $blue, $offset: 2px) {
+
+    outline: $color solid 2px;
+
+	@if $color != transparent {
+
+		outline-offset: $offset;
+		
+	}
+
+	@else {
+		
+		outline-offset: 0;
+
+	}
+
+	@include prefix(outline-radius, 3px);
+            
+}

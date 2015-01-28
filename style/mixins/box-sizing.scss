@@ -1,0 +1,12 @@
+
+/**
+ * mixins/box-sizing.scss
+ * 
+ * Box sizing
+ */
+
+@mixin box-sizing ($box: border-box) {
+
+	@include prefix(box-sizing, $box);
+	
+}

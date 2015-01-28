@@ -1,0 +1,12 @@
+
+/**
+ * mixins/transition.scss
+ * 
+ * Transition
+ */
+
+@mixin transition($arguments...) {
+
+	@include prefix(transition, $arguments);
+	
+}

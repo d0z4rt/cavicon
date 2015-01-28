@@ -1,0 +1,12 @@
+
+/**
+ * mixins/box-shadow.scss
+ * 
+ * Box shadow
+ */
+
+@mixin box-shadow($arguments...) {
+
+	@include prefix(box-shadow, $arguments);
+	
+}
