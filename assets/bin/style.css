@@ -235,6 +235,8 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: #eaeaea;
+  color: #ffffff;
   line-height: 1.3;
   font-family: "SourceSPRegular", sans-serif;
   font-size: 16px;
@@ -305,6 +307,27 @@ html, body {
 
 /* COMPONENTS
    ----------------------------- */
+/**
+ * components/title/title.scss
+ * 
+ * Title
+ */
+h1 {
+  font-family: "AvenirNHeavyCondIt", sans-serif;
+  font-size: 72px; }
+
+h2 {
+  font-family: "SourceSPBlackItalic", sans-serif;
+  font-size: 48px; }
+
+h3 {
+  font-family: "SourceSPBlack", sans-serif;
+  font-size: 48px; }
+
+h4 {
+  font-family: "SourceSPSBoldItalic", sans-serif;
+  font-size: 36px; }
+
 /**
  * components/button/button.scss
  * 

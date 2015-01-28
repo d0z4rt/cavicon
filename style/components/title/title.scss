@@ -1,0 +1,26 @@
+
+/**
+ * components/title/title.scss
+ * 
+ * Title
+ */
+
+h1 {
+	font-family: $font-family-name;
+	font-size: 72px;
+}
+
+h2 {
+	font-family: $font-family-title;
+	font-size: 48px;
+}
+
+h3 {
+	font-family: $font-family-small-title;
+	font-size: 48px;
+}
+
+h4 {
+	font-family: $font-family-part-title;
+	font-size: 36px;
+}
