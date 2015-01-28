@@ -10,37 +10,37 @@
 
 @font-face {
 
-	font-family: "RobotoDraft";
+	font-family: "AvenirNHeavyCondIt";
 	font-style: normal;
-	font-weight: 400;
-	src: local("RobotoDraft"), url(../fonts/roboto-regular.woff) format("woff");
+	font-weight: 800;
+	src: local("AvenirNHeavyCondIt"), url(../fonts/avenirnextproheavycnit.woff) format("woff");
 
 }
 
 @font-face {
 
-	font-family: "RobotoDraft";
+	font-family: "SourceSPBlack";
 	font-style: normal;
-	font-weight: 300;
-	src: local("RobotoDraft Light"), local("RobotoDraft-Light"), url(../fonts/roboto-light.woff) format("woff");
+	font-weight: 800;
+	src: local("SourceSPBlack"), url(../fonts/sourcesanspro-black.woff) format("woff");
 
 }
 
 @font-face {
 
-	font-family: "RobotoDraft";
+	font-family: "SourceSPBlackItalic";
 	font-style: normal;
-	font-weight: 500;
-	src: local("RobotoDraft Medium"), local("RobotoDraft-Medium"), url(../fonts/roboto-medium.woff) format("woff");
+	font-weight: 800;
+	src: local("SourceSPBlackItalic"), url(../fonts/sourcesanspro-blackit.woff) format("woff");
 
 }
 
 @font-face {
 
-	font-family: "RobotoDraft";
+	font-family: "SourceSPSBoldItalic";
 	font-style: normal;
-	font-weight: 700;
-	src: local("RobotoDraft Bold"), local("RobotoDraft-Bold"), url(../fonts/roboto-bold.woff) format("woff");
+	font-weight: 600;
+	src: local("SourceSPSBoldItalic"), url(../fonts/sourcesanspro-semiboldit.woff) format("woff");
 
 }
 
@@ -48,27 +48,9 @@
 
 @font-face {
 
-	font-family: "Merriweather";
+	font-family: "SourceSPRegular";
 	font-style: normal;
 	font-weight: 400;
-	src: local("Merriweather"), url(../fonts/merriweather-regular.woff) format("woff");
-
-}
-
-@font-face {
-
-	font-family: "Merriweather";
-	font-style: normal;
-	font-weight: 700;
-	src: local("Merriweather Bold"), local("Merriweather-Bold"), url(../fonts/merriweather-bold.woff) format("woff");
-
-}
-
-@font-face {
-
-	font-family: "Merriweather";
-	font-style: italic;
-	font-weight: 400;
-	src: local("Merriweather Italic"), local("Merriweather-Italic"), url(../fonts/merriweather-italic.woff) format("woff");
+	src: local("SourceSPRegular"), url(../fonts/sourcesanspro-regular.woff) format("woff");
 
 }
