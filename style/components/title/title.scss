@@ -5,23 +5,40 @@
  * Title
  */
 
-h1 {
-	font-family: $font-family-name;
-	color: #272727;
-	font-size: 72px;
+.title {
+
+	margin: 16px 0 8px 0;
+
+	line-height: 1.4;
+
+	@include font-size(28px);
+
 }
 
-h2 {
-	font-family: $font-family-title;
-	font-size: 48px;
+$headings--sizes: (72px, 48px, 48px, 36px, 20px, 18px);
+
+$headings--fonts: ($font-family-name,
+				   $font-family-title,
+				   $font-family-small-title,
+				   $font-family-part-title,
+				   $font-family-part-title,
+				   $font-family-part-title);
+
+@for $i from 1 through 6 {
+
+	h#{$i}.title {
+
+		font-family: nth($headings--fonts, $i);
+
+		@include font-size(nth($headings--sizes, $i));
+		
+	}
+
 }
 
-h3 {
-	font-family: $font-family-small-title;
-	font-size: 48px;
-}
 
-h4 {
-	font-family: $font-family-part-title;
-	font-size: 36px;
+.title--center {
+
+	text-align: center;
+
 }

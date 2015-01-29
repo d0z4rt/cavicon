@@ -1,0 +1,40 @@
+
+/**
+ * components/color-bar/color-bar.scss
+ * 
+ * Colored bar
+ */
+
+.color-bar {
+
+	position: fixed;
+	top: 0;
+	
+	width: 100%;
+	height: $color-bar--height;
+
+	background-color: #2ecc71;
+	font-size: 0;
+
+}
+
+.color-bar__item {
+
+	display: inline-block;
+	height: 100%;
+	width: 12.5%;
+
+}
+
+@each $array in $colors {
+
+	$_color-name: nth($array, 1);
+	$_color-value: nth($array, 2);
+
+	.color-bar__item--#{$_color-name} {
+	
+		background-color: $_color-value;
+
+	}
+
+}
