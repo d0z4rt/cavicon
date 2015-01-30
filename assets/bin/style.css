@@ -225,6 +225,12 @@ input[type="search"] {
   font-weight: 400;
   src: local("SourceSPRegular"), url(../fonts/sourcesanspro-regular.woff) format("woff"); }
 
+@font-face {
+  font-family: "SourceSPRegularItalic";
+  font-style: normal;
+  font-weight: 400;
+  src: local("SourceSPRegularItalic"), url(../fonts/sourcesanspro-it.woff) format("woff"); }
+
 /**
  * base/body.scss
  * 
@@ -313,8 +319,9 @@ html, body {
  * Title
  */
 .title {
-  margin: 16px 0 8px 0;
+  margin: 0;
   line-height: 1.4;
+  text-align: center;
   font-size: 28px;
   font-size: 1.75rem; }
 
@@ -349,7 +356,8 @@ h6.title {
   font-size: 1.125rem; }
 
 .title--center {
-  text-align: center; }
+  text-align: center;
+  font-family: "SourceSPRegularItalic", sans-serif; }
 
 /**
  * components/color-bar/color-bar.scss
@@ -376,7 +384,7 @@ h6.title {
   background-color: #e91e63; }
 
 .color-bar__item--purple {
-  background-color: #9c27b0; }
+  background-color: #9b59b6; }
 
 .color-bar__item--deep-purple {
   background-color: #673ab7; }
@@ -412,7 +420,7 @@ h6.title {
   background-color: #ffc107; }
 
 .color-bar__item--orange {
-  background-color: #ff9800; }
+  background-color: #e67e22; }
 
 .color-bar__item--deep-orange {
   background-color: #ff5722; }
@@ -471,7 +479,7 @@ li.menu_child--pink {
   background-color: #e91e63; }
 
 li.menu_child--purple {
-  background-color: #9c27b0; }
+  background-color: #9b59b6; }
 
 li.menu_child--deep-purple {
   background-color: #673ab7; }
@@ -507,7 +515,7 @@ li.menu_child--amber {
   background-color: #ffc107; }
 
 li.menu_child--orange {
-  background-color: #ff9800; }
+  background-color: #e67e22; }
 
 li.menu_child--deep-orange {
   background-color: #ff5722; }
@@ -533,9 +541,12 @@ nav.menu.landing_page ul li.logo {
 a.menu.a:active, a.menu.a:visited, a.menu.a:link {
   font-size: 1.5em;
   line-height: 70px;
+  height: 100%;
+  width: 100%;
   text-decoration: none;
   text-transform: uppercase;
   font-family: "SourceSPRegular", sans-serif;
+  display: block;
   color: inherit; }
 
 /**
@@ -549,27 +560,118 @@ section#main {
   width: 100%;
   background-color: #eaeaea; }
 
-img.main.logo {
+div.main.contener {
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 50%;
+  height: 60%;
+  width: 100%;
+  margin: auto;
+  text-align: center; }
+
+img.main.logo {
+  height: 80%;
   width: auto;
   margin: auto;
-  padding: 0 0 10% 0; }
+  padding: 0;
+  animation-name: logorotate;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: 5;
+  animation-delay: 0;
+  animation-play-state: running;
+  animation-fill-mode: forwards; }
+
+@keyframes logorotate {
+  0% {
+    transform: rotate(0deg); }
+
+  100% {
+    transform: rotate(360deg); } }
 
 h1.main.title {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
   height: 4.5rem;
   width: auto;
   margin: auto;
-  padding: 30% 0 0 0;
+  padding: 0;
   display: block;
-  text-align: center;
   color: #272727; }
+
+p.main.paragraph {
+  color: #777777;
+  font-size: 25px;
+  font-family: "SourceSPRegularItalic", sans-serif; }
+
+/**
+ * components/sections/news.scss
+ * 
+ * News section
+ */
+section#news {
+  position: relative;
+  height: auto;
+  width: 100%;
+  padding: 20px 0 20px 0;
+  background-color: #2ecc71; }
+
+/**
+ * components/sections/ticketing.scss
+ * 
+ * ticketing section
+ */
+section#ticketing {
+  position: relative;
+  height: auto;
+  width: 100%;
+  padding: 20px 0 20px 0;
+  background-color: #3498db; }
+
+/**
+ * components/sections/guests.scss
+ * 
+ * guests section
+ */
+section#guests {
+  position: relative;
+  height: auto;
+  width: 100%;
+  padding: 20px 0 20px 0;
+  background-color: #e74c3c; }
+
+/**
+ * components/sections/partners.scss
+ * 
+ * partners section
+ */
+section#partners {
+  position: relative;
+  height: auto;
+  width: 100%;
+  padding: 20px 0 20px 0;
+  background-color: #f1c40f; }
+
+/**
+ * components/sections/contact.scss
+ * 
+ * contact section
+ */
+section#contact {
+  position: relative;
+  height: auto;
+  width: 100%;
+  padding: 20px 0 20px 0;
+  background-color: #9b59b6; }
+
+/**
+ * components/sections/about.scss
+ * 
+ * about section
+ */
+section#about {
+  position: relative;
+  height: auto;
+  width: 100%;
+  padding: 20px 0 20px 0;
+  background-color: #e67e22; }

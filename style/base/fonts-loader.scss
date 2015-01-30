@@ -54,3 +54,12 @@
 	src: local("SourceSPRegular"), url(../fonts/sourcesanspro-regular.woff) format("woff");
 
 }
+
+@font-face {
+
+	font-family: "SourceSPRegularItalic";
+	font-style: normal;
+	font-weight: 400;
+	src: local("SourceSPRegularItalic"), url(../fonts/sourcesanspro-it.woff) format("woff");
+
+}

@@ -7,9 +7,11 @@
 
 .title {
 
-	margin: 16px 0 8px 0;
+	margin: 0;
 
 	line-height: 1.4;
+
+	text-align: center;
 
 	@include font-size(28px);
 
@@ -40,5 +42,6 @@ $headings--fonts: ($font-family-name,
 .title--center {
 
 	text-align: center;
+	font-family: $font-family-paragraph-italic;
 
 }
