@@ -470,70 +470,158 @@ li.menu_child {
   height: 100%;
   white-space: nowrap;
   color: #ffffff;
-  flex-grow: 1; }
+  flex-grow: 1;
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s; }
 
 li.menu_child--red {
   background-color: #e74c3c; }
 
+li.menu_child--red:hover {
+  background-color: #eaeaea;
+  color: #e74c3c; }
+
 li.menu_child--pink {
   background-color: #e91e63; }
+
+li.menu_child--pink:hover {
+  background-color: #eaeaea;
+  color: #e91e63; }
 
 li.menu_child--purple {
   background-color: #9b59b6; }
 
+li.menu_child--purple:hover {
+  background-color: #eaeaea;
+  color: #9b59b6; }
+
 li.menu_child--deep-purple {
   background-color: #673ab7; }
+
+li.menu_child--deep-purple:hover {
+  background-color: #eaeaea;
+  color: #673ab7; }
 
 li.menu_child--indigo {
   background-color: #3f51b5; }
 
+li.menu_child--indigo:hover {
+  background-color: #eaeaea;
+  color: #3f51b5; }
+
 li.menu_child--blue {
   background-color: #3498db; }
+
+li.menu_child--blue:hover {
+  background-color: #eaeaea;
+  color: #3498db; }
 
 li.menu_child--light-blue {
   background-color: #03a9f4; }
 
+li.menu_child--light-blue:hover {
+  background-color: #eaeaea;
+  color: #03a9f4; }
+
 li.menu_child--cyan {
   background-color: #00bcd4; }
+
+li.menu_child--cyan:hover {
+  background-color: #eaeaea;
+  color: #00bcd4; }
 
 li.menu_child--teal {
   background-color: #009688; }
 
+li.menu_child--teal:hover {
+  background-color: #eaeaea;
+  color: #009688; }
+
 li.menu_child--green {
   background-color: #2ecc71; }
+
+li.menu_child--green:hover {
+  background-color: #eaeaea;
+  color: #2ecc71; }
 
 li.menu_child--light-green {
   background-color: #8bc34a; }
 
+li.menu_child--light-green:hover {
+  background-color: #eaeaea;
+  color: #8bc34a; }
+
 li.menu_child--lime {
   background-color: #cddc39; }
+
+li.menu_child--lime:hover {
+  background-color: #eaeaea;
+  color: #cddc39; }
 
 li.menu_child--yellow {
   background-color: #f1c40f; }
 
+li.menu_child--yellow:hover {
+  background-color: #eaeaea;
+  color: #f1c40f; }
+
 li.menu_child--amber {
   background-color: #ffc107; }
+
+li.menu_child--amber:hover {
+  background-color: #eaeaea;
+  color: #ffc107; }
 
 li.menu_child--orange {
   background-color: #e67e22; }
 
+li.menu_child--orange:hover {
+  background-color: #eaeaea;
+  color: #e67e22; }
+
 li.menu_child--deep-orange {
   background-color: #ff5722; }
+
+li.menu_child--deep-orange:hover {
+  background-color: #eaeaea;
+  color: #ff5722; }
 
 li.menu_child--brown {
   background-color: #795548; }
 
+li.menu_child--brown:hover {
+  background-color: #eaeaea;
+  color: #795548; }
+
 li.menu_child--grey {
   background-color: #9e9e9e; }
+
+li.menu_child--grey:hover {
+  background-color: #eaeaea;
+  color: #9e9e9e; }
 
 li.menu_child--blue-grey {
   background-color: #607d8b; }
 
+li.menu_child--blue-grey:hover {
+  background-color: #eaeaea;
+  color: #607d8b; }
+
 li.menu_child--light-grey {
   background-color: #eaeaea; }
 
+li.menu_child--light-grey:hover {
+  background-color: #eaeaea;
+  color: #eaeaea; }
+
 li.menu_child--dark-grey {
   background-color: #696969; }
+
+li.menu_child--dark-grey:hover {
+  background-color: #eaeaea;
+  color: #696969; }
 
 nav.menu.landing_page ul li.logo {
   display: none; }
