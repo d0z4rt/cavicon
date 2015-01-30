@@ -9,21 +9,23 @@
 // Material design colors
 
 $red:         #e74c3c;
+$dark-red:    #c0392b;
 $pink:        #e91e63;
 $purple:      #9b59b6;
-$deep-purple: #673ab7;
+$dark-purple: #8e44ad;
 $indigo:      #3f51b5;
 $blue:        #3498db;
-$light-blue:  #03a9f4;
+$dark-blue:   #2980b9;
 $cyan:        #00bcd4;
 $teal:        #009688;
 $green:       #2ecc71;
-$light-green: #8bc34a;
+$dark-green:  #27ae60;
 $lime:        #cddc39;
 $yellow:      #f1c40f;
+$dark-yellow: #f39c12;
 $amber:       #ffc107;
 $orange:      #e67e22;
-$deep-orange: #ff5722;
+$dark-orange: #d35400;
 $brown:       #795548;
 $grey:        #9e9e9e;
 $blue-grey:   #607d8b;
@@ -33,21 +35,23 @@ $dark-grey:   #696969;
 $colors: (
 	
 	        (red $red),
+	   (dark-red $dark-red),
 	       (pink $pink),
 	     (purple $purple),
-	(deep-purple $deep-purple),
+	(dark-purple $dark-purple),
 	     (indigo $indigo),
 	       (blue $blue),
-	 (light-blue $light-blue),
+	  (dark-blue $dark-blue),
 	       (cyan $cyan),
 	       (teal $teal),
 	      (green $green),
-	(light-green $light-green),
+	 (dark-green $dark-green),
 	       (lime $lime),
 	     (yellow $yellow),
+	(dark-yellow $dark-yellow),
 	      (amber $amber),
 	     (orange $orange),
-	(deep-orange $deep-orange),
+	(dark-orange $dark-orange),
 	      (brown $brown),
 	       (grey $grey),
 	  (blue-grey $blue-grey),

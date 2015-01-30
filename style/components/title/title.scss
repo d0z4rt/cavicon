@@ -7,7 +7,7 @@
 
 .title {
 
-	margin: 0;
+	margin: 0 0 10px 0;
 
 	line-height: 1.4;
 
@@ -17,7 +17,7 @@
 
 }
 
-$headings--sizes: (50px, 48px, 48px, 36px, 20px, 18px);
+$headings--sizes: (50px, 48px, 36px, 36px, 20px, 18px);
 
 $headings--fonts: ($font-family-name,
 				   $font-family-title,
