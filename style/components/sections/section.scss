@@ -5,6 +5,12 @@
  * section
  */
 
+section {
+	
+	text-align: center;
+
+}
+
 section.section {
 	
 	padding: 20px 0 20px 0;
@@ -86,5 +92,11 @@ a.card.link:visited, a.card.link:active, a.card.link:link {
 	font-family: $font-family-small-title;
 	text-decoration: none;
 	color: #ffffff;
+
+}
+
+p.about.paragraph {
+	
+	margin: 50px 0 50px 0;
 
 }
