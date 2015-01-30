@@ -1,0 +1,27 @@
+
+/**
+ * components/text.scss
+ * 
+ * Intro texts
+ */
+
+.intro__title {
+
+	display: block;
+	width: auto;
+	height: 4.5rem;
+	margin: auto;
+	padding: 0;
+	
+	color: #272727;
+
+}
+
+.intro__paragraph {
+
+	color: #777777;
+	font-family: $font-family-paragraph-italic;
+
+	@include font-size(25px);
+
+}

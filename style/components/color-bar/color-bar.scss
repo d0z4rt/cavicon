@@ -9,6 +9,7 @@
 
 	position: fixed;
 	top: 0;
+	z-index: index($z, color-bar);
 	
 	width: 100%;
 	height: $color-bar--height;

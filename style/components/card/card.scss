@@ -1,0 +1,57 @@
+
+/**
+ * components/card/card.scss
+ * 
+ * Card
+ */
+
+.card {
+
+	width: 25%;
+	max-width: 350px;
+	margin: 10px;
+	padding: 10px 20px 10px 20px;
+
+	text-align: center;
+
+	@include border-radius(5px);
+
+	@include flex(1 auto);
+
+}
+
+@each $array in $colors {
+
+	$_color-name: nth($array, 1);
+	$_color-value: nth($array, 2);
+
+	.card--#{$_color-name} {
+	
+		background-color: $_color-value;
+
+	}
+
+}
+
+.card__title {
+
+	margin: 0 0 10px 0;
+
+}
+
+.card__link {
+	
+	position: relative;
+	left: 0;
+	right: 0;
+
+	display: block;
+	width: auto;
+	margin: 10px 0 0 0;
+
+	text-align: center;
+	text-decoration: none;
+	font-family: $font-family-small-title;
+	color: white;
+
+}

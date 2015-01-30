@@ -1,0 +1,32 @@
+
+/**
+ * components/menu/menu.scss
+ * 
+ * Landing page menu
+ */
+
+.menu {
+
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: index($z, menu);
+
+	height: 70px;
+
+	background-color: #ffffff;
+
+}
+
+.menu__list {
+
+	margin: 0;
+	padding: 0;
+
+	list-style: none;
+	text-align: center;
+
+	@include flexbox;
+
+}

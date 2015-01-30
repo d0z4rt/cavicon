@@ -2,29 +2,26 @@
 /**
  * components/card/people.scss
  * 
- * people
+ * People card
  */
 
-.card.people {
+.card--people {
 
 	width: 200px;
 	height: 270px;
 	padding: 0;
 
-	-webkit-box-flex: 0 auto;
-	-moz-box-flex: 0 auto;
-	-webkit-flex: 0 auto;
-	-ms-flex: 0 auto;
-	flex: 0 auto;
+	@include flex(0 auto);
 
 }
 
-.card.people img {
+.card--people img {
 
 	width: 200px;
 	height: 200px;
 
 	background-color: #272727;
-	border-radius: 5px 5px 0 0;
+
+	@include border-radius(5px 5px 0 0);
 
 }

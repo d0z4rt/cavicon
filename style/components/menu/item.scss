@@ -1,0 +1,63 @@
+
+/**
+ * components/menu/item.scss
+ * 
+ * Landing page menu item
+ */
+
+.menu__item {
+
+	display: inline-block;
+	height: 100%;
+
+	white-space: nowrap;
+
+	color: white;
+
+	flex-grow: 1;
+
+	@include transition(.5s);
+
+}
+
+.menu__item--logo {
+
+	display: none;
+
+}
+
+@each $array in $colors {
+
+	$_color-name: nth($array, 1);
+	$_color-value: nth($array, 2);
+
+	.menu__item--#{$_color-name} {
+	
+		background-color: $_color-value;
+
+	}
+
+	.menu__item--#{$_color-name}:hover {
+		
+		background-color: #eaeaea;
+		color: $_color-value;
+
+	}
+
+}
+
+.menu__item a:active, .menu__item a:visited, .menu__item a:link {
+
+	display: block;
+	height: 100%;
+	width: 100%;
+
+	color: inherit;
+	line-height: 70px;
+	font-family: $font-family-paragraph;
+	text-decoration: none;
+	text-transform: uppercase;
+
+	@include font-size(24px);
+
+}

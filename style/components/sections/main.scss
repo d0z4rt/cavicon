@@ -5,7 +5,7 @@
  * Main section
  */
 
-section#main {
+.main-section {
 
 	position: relative;
 	height: 100%;
@@ -13,61 +13,4 @@ section#main {
 
 	background-color: #eaeaea;
 
-}
-
-div.main.intro {
-	
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	height: 60%;
-	width: 100%;
-	margin: auto;
-
-	text-align: center;
-
-}
-
-img.main.logo {
-
-	height: 80%;
-	width: auto;
-	margin: auto;
-	padding: 0;
-
-	animation-name: logorotate;
-	animation-duration: 0.5s;
-	animation-timing-function: linear;
-	animation-iteration-count: 5;
-	animation-delay: 0;
-	animation-play-state: running;
-	animation-fill-mode: forwards;
-
-}
-
-@keyframes logorotate {
-	0% {transform:rotate(0deg)}
-	100% {transform:rotate(360deg)}
-}
-
-h1.main.title {
-
-	height: 4.5rem;
-	width: auto;
-	margin: auto;
-	padding: 0;
-
-	display: block;
-	
-	color: #272727;
-
-}
-
-p.main.paragraph {
-
-	color: #777777;
-	font-size: 25px;
-	font-family: $font-family-paragraph-italic;
 }

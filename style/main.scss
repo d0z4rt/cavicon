@@ -20,6 +20,7 @@
 @import "mixins/border-radius";
 @import "mixins/box-shadow";
 @import "mixins/box-sizing";
+@import "mixins/flexbox";
 @import "mixins/font-size";
 @import "mixins/fonts";
 @import "mixins/keyframes";
@@ -54,11 +55,18 @@
 
 @import "components/title/title";
 
-@import "components/card/people";
-
 @import "components/color-bar/color-bar";
-@import "components/menu/menu_landing_page";
+
+@import "components/menu/menu";
+@import "components/menu/item";
+
+@import "components/intro/intro";
+@import "components/intro/logo";
+@import "components/intro/text";
 
 @import "components/sections/section";
 @import "components/sections/main";
 @import "components/sections/contact";
+
+@import "components/card/card";
+@import "components/card/people";
