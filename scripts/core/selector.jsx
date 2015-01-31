@@ -5,7 +5,7 @@
  * DOM Selectors
  */
 
-var _ = function(swag) {
+var $ = function(swag) {
 
 	return document.querySelectorAll(swag);
 
