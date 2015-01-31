@@ -20,6 +20,8 @@ gulp
 
 Cela va également lancer un serveur proxy Browser Sync, vous pouvez définir votre adresse de développement local dans le fichier `dev.json`.
 
+je teste un truc.
+
 ##Authors
 
 [Dimou](https://github.com/dimitrinicolas), [mxcmaxime](https://github.com/mxcmaxime)
