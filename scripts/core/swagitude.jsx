@@ -5,7 +5,7 @@
  * DOM Selectors
  */
 
-var $ = function(swag) {
+var swaguitude = function(swag) {
 
 	return document.querySelectorAll(swag);
 

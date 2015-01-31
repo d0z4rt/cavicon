@@ -25,7 +25,7 @@
 
 }
 
-@mixin flex-flow($values: (row nowrap)) {
+@mixin flex-flow($values: (row wrap)) {
 
 	-webkit-flex-flow: $values;
 	-moz-flex-flow: $values;

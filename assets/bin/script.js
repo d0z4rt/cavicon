@@ -505,18 +505,6 @@ Ajax.prototype.watcherTimeout = function() {
 };
 
 /**
- * core/$.jsx
- *
- * DOM Selectors
- */
-
-var $ = function(swag) {
-
-	return document.querySelectorAll(swag);
-
-};
-
-/**
  * core/isset.jsx
  *
  * Test if a variable exist
@@ -666,6 +654,18 @@ else {
 window.onload = function() {
 
     Application.onDomContentLoaded();
+
+};
+
+/**
+ * core/$.jsx
+ *
+ * DOM Selectors
+ */
+
+var swaguitude = function(swag) {
+
+	return document.querySelectorAll(swag);
 
 };
 
