@@ -658,12 +658,12 @@ window.onload = function() {
 };
 
 /**
- * core/$.jsx
+ * core/_.jsx
  *
  * DOM Selectors
  */
 
-var swaguitude = function(swag) {
+var _ = function(swag) {
 
 	return document.querySelectorAll(swag);
 
@@ -796,29 +796,24 @@ var Col = React.createClass({displayName: "Col",
 });
 
 /**
- * scripts/test.jsx
+ * scripts/smoothscroll.jsx
  *
- * Test Script
+ * Smoot scroll init
  */
 
 onload(function() {
 
-	/*React.render(
+	smoothScroll.init({
 
-		<Container> 
+		speed: 1000,
+		easing: 'easeInOutQuad',
+		updateURL: true,
+		offset: 0,
 
-			<Grid>
+		callbackBefore: function (toggle, anchor) { },
+		callbackAfter:  function (toggle, anchor) { }
 
-				<Col i="3"><Button color="red">Cancel</Button></Col>
-				<Col i="3"><Button type="raised" color="red">Raised button</Button></Col>
-
-			</Grid>
-
-		</Container>,
-		
-		document.body
-
-	);*/
+	});
 
 });
 

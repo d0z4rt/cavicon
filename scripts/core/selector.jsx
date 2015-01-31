@@ -1,11 +1,11 @@
 
 /**
- * core/$.jsx
+ * core/_.jsx
  *
  * DOM Selectors
  */
 
-var swaguitude = function(swag) {
+var _ = function(swag) {
 
 	return document.querySelectorAll(swag);
 

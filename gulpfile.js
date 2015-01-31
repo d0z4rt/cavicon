@@ -48,7 +48,6 @@ gulp.task("librairies", function () {
 
 	return gulp.src([
 
-			"assets/bin/librairies/jquery.min.js",
 			"assets/bin/librairies/es5-shim.min.js",
 			"assets/bin/librairies/es5-sham.min.js",
 			"assets/bin/librairies/react-with-addons.min.js",
