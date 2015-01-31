@@ -29,7 +29,7 @@
 
 	// Default settings
 	var defaults = {
-		speed: 500,
+		speed: 2000,
 		easing: 'easeInOutCubic',
 		offset: 0,
 		updateURL: true,
