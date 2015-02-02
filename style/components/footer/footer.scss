@@ -1,0 +1,43 @@
+
+/**
+ * components/footer/footer.scss
+ * 
+ * Footer
+ */
+
+.footer {
+
+	height: 30px;
+
+	display: block;
+	text-align: center;
+	font-family: $font-family-part-title;
+
+	background-color: #eaeaea;
+
+}
+
+.footer__element {
+
+	margin: 0;
+	padding: 0;
+
+	text-decoration: none;
+	line-height: 30px;
+	color: #777777;
+
+}
+
+.footer__element a {
+
+	opacity: 0.6;
+
+	@include transition(.5s);
+
+	&:hover {
+
+		opacity: 1;
+
+	}
+
+}
