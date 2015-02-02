@@ -1,0 +1,88 @@
+
+/**
+ * components/menu/item_scrolled.scss
+ * 
+ * Scrolled menu item
+ */
+
+.menu__item--scrolled {
+
+	display: inline-block;
+	height: 50%;
+
+	white-space: nowrap;
+	line-height: 35px;
+	color: white;
+
+	flex-grow: 1;
+
+	@include transition(.5s);
+
+	&:hover {
+
+		line-height: 70px;
+
+	}
+
+}
+
+.menu__item--scrolled.menu__item--logo {
+
+	height: 40px;
+	width: 40px;
+
+	display: block;
+	line-height: 0px;
+
+	background-color: #ffffff;
+
+	flex-grow: 0;
+
+	@include transition(.5s);
+
+	&:hover {
+
+		line-height: 0px;
+
+		background-color: #272727;
+
+	}
+
+}
+
+@each $array in $colors {
+
+	$_color-name: nth($array, 1);
+	$_color-value: nth($array, 2);
+
+	.menu__item--#{$_color-name} {
+	
+		background-color: $_color-value;
+
+		&:hover {
+
+			height: 70px;
+		
+			background-color: #ffffff;
+			color: $_color-value;
+
+		}
+
+	}
+
+}
+
+.menu__item--scrolled a:active, .menu__item--scrolled a:visited, .menu__item--scrolled a:link {
+
+	display: block;
+	height: 100%;
+	width: 100%;
+
+	color: inherit;
+	font-family: $font-family-paragraph;
+	text-decoration: none;
+	text-transform: uppercase;
+
+	@include font-size(24px);
+
+}

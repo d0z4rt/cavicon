@@ -862,7 +862,7 @@ onload(function() {
 		speed: 1000,
 		easing: 'easeInOutQuad',
 		updateURL: true,
-		offset: 0,
+		offset: -1,
 
 		callbackBefore: function (toggle, anchor) { },
 		callbackAfter:  function (toggle, anchor) { }

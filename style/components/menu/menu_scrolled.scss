@@ -1,0 +1,21 @@
+
+/**
+ * components/menu/menu_scrolled.scss
+ * 
+ * Scrolled menu
+ */
+
+.menu--scrolled {
+
+	position: fixed;
+	top: 0;
+	bottom: auto;
+	left: 0;
+	right: 0;
+	z-index: index($z, menu);
+
+	height: 70px;
+
+	background-color: transparent;
+
+}
