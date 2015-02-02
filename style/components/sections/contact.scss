@@ -15,3 +15,73 @@
 	background-color: $purple;
 
 }
+
+.contact__form {
+
+	max-width: 500px;
+
+	display: block;
+	margin: auto;
+	padding: 0 30px 30px 30px;
+
+}
+
+.contact__form__input {
+
+	height: 40px;
+	width: 60%;
+
+	box-sizing: border-box;
+	border-radius: 5px;
+	border: none;
+	margin-bottom: 30px;
+	padding: 10px;
+
+	font-family: inherit;
+	font-size: 16px;
+
+	background: #ffffff;
+	color: rgba(0,0,0,0.8);
+
+}
+
+.contact__form__input--send {
+
+	width: 20%;
+
+	margin-bottom: 0px;
+
+	background: #272727;
+	color: rgba(255,255,255,0.8);
+
+	cursor: pointer;
+
+	@include transition(0.5s);
+
+	&:hover {
+
+		background: #ffffff;
+		color: rgba(0,0,0,0.8);
+
+	}
+
+}
+
+.contact__form__text {
+
+	height: 200px;
+	width: 100%;
+
+	box-sizing: border-box;
+	border-radius: 5px;
+	border: none;
+	margin-bottom: 30px;
+	padding: 10px;
+
+	font-family: inherit;
+	font-size: 16px;
+
+	background: #ffffff;
+	color: rgba(0,0,0,0.8);
+
+}

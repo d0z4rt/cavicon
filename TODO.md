@@ -10,6 +10,7 @@
 - [x] Créer le style du footer.
 - [ ] Améliorer l'aniamtion du logo. (Parce que là c'est moche)
 - [x] Créer le style des images, pour les sections "Guests" et "About".
+- [ ] Gérer le responsive !!!!
 
 ##JavaScript
 

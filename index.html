@@ -216,7 +216,16 @@
 
     		<h2 class="title">Vos idées</h2>
 
-    		<form><!-- formulaire de contact, voir la note sur le webdesign --></form>
+    		<form class="contact__form" action="" method="post">
+
+                <input class="contact__form__input" type="text" name="fullname" placeholder="Nom / Prénom / Pseudo :" required />
+                <input class="contact__form__input" type="email" name="email" placeholder="Adresse email" required />
+
+                <textarea class="contact__form__text" name="message" placeholder="Message" required></textarea>
+
+                <input class="contact__form__input contact__form__input--send" class="button" type="submit" name="send" value="Envoyer" />
+
+            </form>
 
     	</section>
 
