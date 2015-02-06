@@ -12,27 +12,4 @@
 	margin: auto;
 	padding: 0;
 
-	@include prefix(animation, logorotate .6s linear 0 3 forwards);
-
-}
-
-@-webkit-keyframes logorotate {
-
-	0%   { @include prefix(transform, rotate(0deg)); }
-	100% { @include prefix(transform, rotate(360deg)); }
-
-}
-
-@-moz-keyframes logorotate {
-
-	0%   { @include prefix(transform, rotate(0deg)); }
-	100% { @include prefix(transform, rotate(360deg)); }
-
-}
-
-@keyframes logorotate {
-
-	0%   { @include prefix(transform, rotate(0deg)); }
-	100% { @include prefix(transform, rotate(360deg)); }
-
 }
